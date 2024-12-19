@@ -3,7 +3,7 @@ import pandas as pd
 import shapely 
 import numpy as np
 import warnings
-from utils import get_scaled_normal_vector_at_center, explode_edges
+from .utils import get_scaled_normal_vector_at_center, explode_edges
 
 
 def calc_shape_irregularity(geoms:gpd.GeoDataFrame):
