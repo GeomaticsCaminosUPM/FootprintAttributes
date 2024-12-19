@@ -3,7 +3,7 @@ import pandas as pd
 import shapely 
 import numpy as np
 import warnings
-from utils import get_scaled_normal_vector_at_center, get_angle_90, explode_edges, calculate_momentum
+from .utils import get_scaled_normal_vector_at_center, get_angle_90, explode_edges, calculate_momentum
 
 def calc_forces(geoms:gpd.GeoDataFrame,buffer:float=0,height_column:str=None):
     if "force" in geoms.columns:
