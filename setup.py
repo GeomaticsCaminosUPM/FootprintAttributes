@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Miguel Ureña Pliego",
     author_email="miguel.urena@upm.es",
-    url="https://github.com/GeomaticsCaminosUPM/FootprintAttributes",
+    url="https://github.com/GeomaticsCaminosUPM/footprint_attributes",
     license="MIT",
     packages=find_packages(),
     install_requires=[
